@@ -20,7 +20,7 @@ const startServer = async () => {
     });
 
     app.listen({port: 4000}, () =>
-        console.log(`Во имя Отца и Святого духа это работает http://localhost:4000${server.graphqlPath}`)
+        console.log(`Во имя Отца и Сына, и Святого духа это работает http://localhost:4000${server.graphqlPath}`)
     );
 };
 

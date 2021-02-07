@@ -19,10 +19,12 @@ export default function AddCat() {
     return (
         <div className='createCats'>
             <form
-                onSubmit={e => {
+                onSubmit={ e => {
                     e.preventDefault();
                     addCat({variables: {name: input.value}});
-                    input.value = '';
+                     input.value = '';
+
+
                 }}>
                 <input className='inputName' placeholder='Дайте имя котику' ref={node => {
                     input = node;
